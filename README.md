@@ -17,9 +17,10 @@ There have been some incredible success stories such as:
   - I have seen this game on almost every friend or family members bookshelf I can remember.
 
 ## Contents
-- [Technical Notebook]()
-- [Data]
+- [Technical Notebook](602_Final.ipynb)
+- [Data](Kickstarter_Data.zip)
 - [README](README.me)
+- [Images](images)
 
 ## Goals
 - Explore the Kickstarter dataset, and get a sense of:
