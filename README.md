@@ -17,10 +17,12 @@ There have been some incredible success stories such as:
   - I have seen this game on almost every friend or family members bookshelf I can remember.
 
 ## Contents
-- [Technical Notebook](602_Final.ipynb)
+- [Technical Notebook](Kickstarter_Final.ipynb)
 - [Data](Kickstarter_Data.zip)
 - [README](README.me)
 - [Images](images)
+- [Original Kickstarter EDA notebook](Kickstarter_Early_EDA.ipynb)
+  - This was an attempt earlier in the semester to explore the data.  This was worked on during the first 4 or 5 weeks of the semester.  
 
 ## Goals
 - Explore the Kickstarter dataset, and get a sense of:
