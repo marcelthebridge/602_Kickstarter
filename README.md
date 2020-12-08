@@ -1,4 +1,4 @@
-<img src=
+<img src="https://github.com/marcelthebridge/602_Kickstarter/blob/main/anything_helps.png" width=500 />
 
 # Kickstarter Exploratory Data Analysis and Modeling
 This project was an exervise in machine learning principles.
@@ -15,3 +15,38 @@ There have been some incredible success stories such as:
 - [Exploding Kittens](https://explodingkittens.com/)
   - Just shy of $9 million in funding
   - I have seen this game on almost every friend or family members bookshelf I can remember.
+
+## Contents
+- [Technical Notebook]()
+- [Data]
+- [README](README.me)
+
+## Goals
+- Explore the Kickstarter dataset, and get a sense of:
+  - Trends at a Glance
+  - Currency Breakdowns
+  - Category Breakdown
+   - Success to Failure rates
+    - Grouped by Category
+    
+  ## Data
+ The dataset contains a few hundred thousand project campaigns that had been hosted on Kickstarter.
+ Features to note include:
+  - name
+    - Name of the project
+  - category
+    - The broad category the project fits under
+   - main_category
+    - Easier to think of this as the more specific category of the project
+  - campaign_length
+    - An engineered feature that is the length(duration) of the campaign
+  - state
+    - Status of the project:
+      - completed
+      - failed
+      - canceled 
+      - live
+      - suspended
+      
+      
+# So, what did we learn?
