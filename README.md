@@ -51,3 +51,28 @@ There have been some incredible success stories such as:
       
       
 # So, what did we learn?
+
+## Some clear breakdowns of what people are interested in creating for the world
+<img src="/images/cat_breakdown.png" />
+
+## The stats on failed vs successful categories
+<img src="/images/pass_fail_cat.png" />
+
+## Model exploration or How I overreached and met my limits
+I may have gotten a little lost during my journey for making use of various tools and models.  The more I fell into the documentation and methods, the further I got from focusing on the goal.  The amount of support and options for conducting classifications is astounding. I had a few false starts and redos when performing my early EDA, and then doing the clean up.  One Hot Encoding felt like it would give me the greatest understanding of all the varied possible values in the features selected, although I should have performed a heat map correlational plot before making the changes I did to the dataframe.  
+
+<img src = "/images/model_eval.png"/>
+
+We have a clear strong performer in our GradientBoosting model.  
+- From a [piece by Jason Brownlee](https://machinelearningmastery.com/gentle-introduction-gradient-boosting-algorithm-machine-learning/) :
+  - Building from the idea of Probably Approximately Correct learning, boosting is the idea of filtering observations, leaving those observations that the weak learner can handle and then focusing on developing new weak learners to handle remaining observations.  Gradient Boosting also built upon the foundation of [AdaBoost](https://machinelearningmastery.com/boosting-and-adaboost-for-machine-learning/) which itself is used to boost performance of decision trees.  
+  - Gradient Boosting is comprised of three elements:
+    - Optimization of a loss function
+    - Weak learner for predictions
+    - An additive model to add weak learners, minimizing the loss function
+  - There is a lot of very interesting work out there on Gradient Boosting and based on how this model outperformed the others, this is going to be one I will keep a tab on as I seek to update and perfect my notebooks. 
+  
+  #### Other limitations
+  With one hot encoding creaing many new columns, I found my understanding of how I was handling the data to become less and less grounded. I adjusting my data prep a few times trying to employ better feature selection, but settled on a more is more approach.
+  I also think that, as I revisit this data set I would like to create a better set of functions to split data sets into categories and get better ML data  based on the interest of the user.  Do we want to investigate tech only campaigns? Maybe if the pandemic continues we will want to only fund campaigns that are focused on generating new entertainment content. 
+  What we are left with is a seemingly overbuilt frankenstein notebook that can be hacked apart and strengthened into a very smart process for a variety of interests.  
